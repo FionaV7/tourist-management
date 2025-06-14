@@ -1,0 +1,176 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      background-color: #333;
+      margin: 0;
+      overflow: hidden;
+    }
+    nav ul li {
+      float: left;
+    }
+    nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      background-color: #111;
+    }
+    .tourism {
+      background-color: white;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(193, 36, 36, 0.1);
+    }
+    .tourism h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .tourism {
+      margin-bottom: 15px;
+    }
+    .tourism label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .tourism input, .tourism select, .tourism textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .tourism input[type="submit"] {
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .tourism input[type="submit"]:hover {
+      background-color: #003f7f;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <a href="C:\Users\Admin\Desktop\project by fio\Untitled-1.html" class="back-button">Back</a>
+  <div class="tourism">
+    <h2>fill the form based on the place of preference</h2>
+    <form action="submit_form.php" method="post">
+      <div class="tourism">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="tourism">
+        <label for="email">Age:</label>
+        <input type="Age" id="Age" name="Age" required>
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required>
+      </div>
+      <div class="tourism">
+        <label for="Country">Country</label>
+        <input id="Country" name="Country" rows="1" required></input>
+      </div>
+    <div class="tourism">
+        <label for="City">city</label>
+        <input id="City" name="City" rows="1" required></input>
+      </div>
+      <div class="tourism">
+        <label for="Place">Places to visit:</label>
+        <select id="Places" name="Places" required>
+          <option value="">Any place</option>
+          <option value="">Waterfalls</option>
+          <option value="">Temple</option>
+          <option value="">Beach</option>
+          <option value="">mountains</option>
+          <option value="">snow</option>
+          <option value="">museums</option>
+          <option value="">Art galery</option>
+          <option value="">Mall</option>
+          <option value="">cliff jumping</option>
+          <option value="">Desert</option>
+        </select>
+      </div>
+    <div class="tourism">
+        <label for="people count">Number Of People Going:</label>
+        <select id="People count" name="People count" required>
+          <option value="">NULL</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+          <option value="">6</option>
+          <option value="">7</option>
+          <option value="">8</option>
+          <option value="">9</option>
+          <option value="">10</option>
+        </select>
+      </div>
+      <div class="tourism">
+        <label for="experience">date of travel start</label>
+        <input type="date" id="date" name="experience" required>
+      </div>
+  <div class="tourism">
+        <label for="experience">date of travel end</label>
+        <input type="date" id="date" name="experience" required>
+      </div>
+  <div class="tourism">
+        <label for="budget for the trip">total budget for the trip:</label>
+        <input id="budget for the trip" name="budget for the trip" rows="" required></input>
+      </div>
+  <select id="card type" name="Card type" required>
+          <option value="">Credit card</option>
+          <option value="">Debit card</option>
+          <option value="">Visa</option>
+          <option value="">Titanium Credit card</option>
+          <option value="">Premium Crads</option>
+          <option value="">Gold credit card</option>
+          <option value="">Debit Master Crad</option>
+          <option value="">Prepaid Card</option>
+          <option value="">Black Crad</option>
+        </select>
+      </div>
+      <div class="tourism">
+        <label for="card number">card number:</label>
+        <input id="card number" name="card number" rows="" required></input>
+
+<div class="tourism">
+        <label for="bank">the bank the card belongs to:</label>
+        <input id="bank" name="bank" rows="" required></input>
+
+      <div class="form-group">
+        <button class="log"><a href="C:\Users\Admin\Desktop\project by fio\Untitled-4.html" style="color: black; text-decoration: none;">Submit</a></button>
+        
+      </div>
+    </form>
+  </div>
+
+  
